@@ -19,9 +19,11 @@ class NewStyle(object):
 if __name__ == '__main__':
     old = OldStyle('old', 'Old style class')
     print old
+    print type(old)
     print dir(old)
-
+    print '---------------------------------------------------------'
     new = NewStyle('new', 'New style class')
+    print new
     print type(new)
     print dir(new)
 
