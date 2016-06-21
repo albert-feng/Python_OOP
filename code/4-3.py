@@ -15,6 +15,8 @@ class Programer(object):
         if isinstance(other, Programer):
             if self.age == other.age:
                 return True
+            else:
+                return False
         else:
             raise Exception('The type of object must be Programer')
 
